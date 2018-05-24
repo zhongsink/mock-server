@@ -7,7 +7,7 @@ const middlewares = jsonServer.defaults()
 const rewriter = jsonServer.rewriter(routes)
 server.use(middlewares);
 
-// 将 POST 请求转为 GET
+// change method post to get 
 server.use((request, res, next) => {
   request.method = 'GET';
   next();
