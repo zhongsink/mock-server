@@ -1,0 +1,29 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "api mockjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongsink/mock-server.git"
+  },
+  "keywords": [
+    "api",
+    "mock",
+    "nodejs"
+  ],
+  "author": "zhongink@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhongsink/mock-server/issues"
+  },
+  "homepage": "https://github.com/zhongsink/mock-server#readme",
+  "dependencies": {
+    "json-server": "^0.12.2",
+    "mockjs": "^1.0.1-beta3"
+  }
+}
