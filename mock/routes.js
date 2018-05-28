@@ -1,4 +1,4 @@
 module.exports = {
-    "/comment_get": "/getComment",
+    "/station/report/*": "/getValue",
     "/comment_add": "/addComment"
 }
