@@ -110,5 +110,32 @@ module.exports = {
         "error": 0,
         "message": "success",
         "result": []
+    }),
+    messageList: Mock.mock({
+            "code": 0,
+            "msg": "ok",
+            "data": {
+                "messages|10": [{
+                    "mid": "4546",
+                    "status": 0,
+                    "type": 1,
+                    "create_time": Mock.Random.datetime(),
+                    "message": Mock.Random.string('ddd',20)
+                }],
+                "count": 10,
+                "unread_count": 10,
+            }
+    }),
+    updateMessage: Mock.mock({
+        "code": 0,
+        "msg": "ok"
+    }),
+    updateMessageAll: Mock.mock({
+        "code": 0,
+        "msg": "ok"
+    }),
+    deleteMessageAll: Mock.mock({
+        "code": 0,
+        "msg": "ok"
     })
 };
