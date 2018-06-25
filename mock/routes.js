@@ -4,5 +4,6 @@ module.exports = {
     "/message/list": "/messageList",
     "/message/set_read/one": "/updateMessage",
     "/message/set_read/all": "/updateMessageAll",
-    "/message/delete/all": "/deleteMessageAll"
+    "/message/delete/all": "/deleteMessageAll",
+    "/message/unread/count": "/getUnreadCount"
 }

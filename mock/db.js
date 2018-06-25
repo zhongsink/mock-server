@@ -120,7 +120,13 @@ module.exports = {
                     "status": 0,
                     "type": 1,
                     "create_time": Mock.Random.datetime(),
-                    "message": Mock.Random.string('ddd',20)
+                    "content": {
+                        order_id: 'PL2126461',
+                        custom_name: 'qucaigou01',
+                        username: 'qucaigou01',
+                        price: 170355,
+                        order_type: '1'
+                    }
                 }],
                 "count": 10,
                 "unread_count": 10,
@@ -136,6 +142,13 @@ module.exports = {
     }),
     deleteMessageAll: Mock.mock({
         "code": 0,
+        "msg": "ok"
+    }),
+    getUnreadCount: Mock.mock({
+        "code": 0,
+        "data": {
+            "unread_count": 10,
+        },
         "msg": "ok"
     })
 };
