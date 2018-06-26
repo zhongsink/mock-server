@@ -116,17 +116,11 @@ module.exports = {
             "msg": "ok",
             "data": {
                 "messages|10": [{
-                    "mid": "4546",
+                    "id": "4546",
                     "status": 0,
                     "type": 1,
                     "create_time": Mock.Random.datetime(),
-                    "content": {
-                        order_id: 'PL2126461',
-                        custom_name: 'qucaigou01',
-                        username: 'qucaigou01',
-                        price: 170355,
-                        order_type: '1'
-                    }
+                    "message": '{"order_id":"PL2126461","customer_name":"qucaigou01","username":"qucaigou01","order_price":170355,"order_type":"下单"}'
                 }],
                 "count": 10,
                 "unread_count": 10,
